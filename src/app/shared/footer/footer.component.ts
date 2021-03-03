@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PageDataService } from '../../services/page-data.service';
 
 @Component({
   selector: 'app-footer',
@@ -9,7 +10,7 @@ export class FooterComponent implements OnInit {
 
   date : number = new Date().getFullYear();
 
-  constructor() { }
+  constructor( public pageDataService: PageDataService ) { }
 
   ngOnInit(): void {
   }
