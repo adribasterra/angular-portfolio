@@ -10,4 +10,6 @@
 /tsconfig.json
 /tsconfig.spec.json
 /tslint.json
-/src/assets
+/src/assets/css
+/src/assets/img
+/src/assets/js
